@@ -82,7 +82,5 @@ async fn upload_file(_key: SecretKey, ip: &str) -> () {
 
 #[launch]
 fn launch() -> _ {
-    rocket::build()
-        .configure(rocket::Config::figment())
-        .mount("/", routes![download_file, upload_file])
+    rocket::build().mount("/", routes![download_file, upload_file])
 }
