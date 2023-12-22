@@ -1,11 +1,2 @@
-[debug]
-address = "0.0.0.0"
-
-[development]
-address = "0.0.0.0"
-
-[staging]
-address = "0.0.0.0"
-
-[production]
+[release]
 address = "0.0.0.0"
