@@ -1,0 +1,11 @@
+[development]
+address = "localhost"
+port = 8400
+
+[staging]
+port = 9000
+address = "0.0.0.0"
+
+[production]
+address = "0.0.0.0"
+port = 82000
